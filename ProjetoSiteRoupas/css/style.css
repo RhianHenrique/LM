@@ -1,0 +1,58 @@
+*{
+    margin: 0 auto;
+    padding: 0 auto;
+    box-sizing: border-box;
+}
+
+header{
+    background-color: black;
+}
+
+header h1{
+    color: white ;
+    align-items: center;
+    border: white solid 2px;
+}
+
+.estiloBtnDropdown {
+    background-color: #34db95;
+    color: white;
+    padding: 16px;
+    margin-right: 20px;
+    margin-left: 20px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+    border-radius: 10px;
+}
+
+.estiloBtnDropdown:hover, .estiloBtnDropdown:focus {
+    background-color: #29b957;
+}
+
+.dropDown {
+    position: relative;
+    display: inline-flex;
+    align-items:center;
+    border: white solid 2px;
+}
+
+.dropDown a:hover {
+    background-color: #ddd;
+}
+
+.estiloBtn-2 {
+    background-color: #34db95;
+    color: white;
+    margin-right: 20px;
+    margin-left: 20px;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+    border-radius: 10px;
+}
+
+.estiloBtn-2:hover, .estiloBtn-2:focus {
+    background-color: #29b957;
+}
